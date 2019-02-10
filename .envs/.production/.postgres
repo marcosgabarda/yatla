@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=yatla
+POSTGRES_USER=DxLnayNfpdgeGjVgYNmzgKuQvkOikrgA
+POSTGRES_PASSWORD=DU4hq3qMRpsbkQ3QKyhkbHUF7KE5zd8EpRUL3e0RJqLlGYdTJqEDWG1fyYfdn53k

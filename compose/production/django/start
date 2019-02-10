@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+
+pipenv run python /app/manage.py migrate --noinput
+pipenv run python /app/manage.py collectstatic --noinput
+pipenv run python /app/manage.py compilemessages
+pipenv run gunicorn config.wsgi --bind 0.0.0.0:5000 --chdir=/app

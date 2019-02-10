@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-environ = "*"
+django-model-utils = "*"
+django-filter = "*"
+djangorestframework = "*"
+"psycopg2-binary" = "*"
+django-cors-headers = "*"
+django-simple-options = "*"
+bleach = "*"
+django-belt = "*"
+coreapi = "*"
+
+[dev-packages]
+mypy = "*"
+pytest = "*"
+pytest-sugar = "*"
+"flake8" = "*"
+coverage = "*"
+factory-boy = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+django-coverage-plugin = "*"
+pytest-django = "*"
+pylint = "*"
+black = "==18.9b0"
+django-test-plus = "*"
+
+[requires]
+python_version = "3.7"

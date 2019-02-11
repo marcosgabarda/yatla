@@ -15,6 +15,7 @@ django-simple-options = "*"
 bleach = "*"
 django-belt = "*"
 coreapi = "*"
+"argon2-cffi" = "*"
 
 [dev-packages]
 mypy = "*"
@@ -30,6 +31,7 @@ pytest-django = "*"
 pylint = "*"
 black = "==18.9b0"
 django-test-plus = "*"
+werkzeug = "*"
 
 [requires]
 python_version = "3.7"

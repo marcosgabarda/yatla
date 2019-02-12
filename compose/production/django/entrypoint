@@ -15,7 +15,7 @@ fi
 export DATABASE_URL="postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}"
 
 postgres_ready() {
-pipenv run python << END
+python << END
 import sys
 
 import psycopg2

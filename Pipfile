@@ -16,6 +16,9 @@ bleach = "*"
 django-belt = "*"
 coreapi = "*"
 "argon2-cffi" = "*"
+gunicorn = "*"
+whitenoise = "*"
+collectfast = "*"
 
 [dev-packages]
 mypy = "*"

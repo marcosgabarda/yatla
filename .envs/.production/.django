@@ -5,30 +5,17 @@ DJANGO_SETTINGS_MODULE=config.settings.production
 DJANGO_SECRET_KEY=SZynqaCopHJw3JQwNEPzfaaKyK6i82qDPDYiUyTXSvu7vHjtk6v1JkoLxTwt6Tae
 DJANGO_ADMIN_URL=SSCBz6h2suAqMtFyBwQwStjvqajds25o/
 DJANGO_ALLOWED_HOSTS=yatla.mgabarda.com
+DJANGO_ADMIN_URL=admin/
 
 # Security
 # ------------------------------------------------------------------------------
 # TIP: better off using DNS, however, redirect is OK too
 DJANGO_SECURE_SSL_REDIRECT=False
 
-# Email
-# ------------------------------------------------------------------------------
-MAILGUN_API_KEY=
-DJANGO_SERVER_EMAIL=
-MAILGUN_DOMAIN=
-
-# AWS
-# ------------------------------------------------------------------------------
-DJANGO_AWS_ACCESS_KEY_ID=
-DJANGO_AWS_SECRET_ACCESS_KEY=
-DJANGO_AWS_STORAGE_BUCKET_NAME=
-
 # Gunicorn
 # ------------------------------------------------------------------------------
 WEB_CONCURRENCY=4
 
-
 # Redis
 # ------------------------------------------------------------------------------
 REDIS_URL=redis://redis:6379/0
-

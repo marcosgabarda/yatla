@@ -150,3 +150,5 @@ LOGGING = {
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+MEDIA_ROOT = "/data/media"
+STATIC_ROOT = "/data/static"

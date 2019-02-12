@@ -1,12 +1,12 @@
 from django.conf import settings
-from django.urls import include, path
 from django.conf.urls.static import static
 from django.contrib import admin
+from django.urls import include, path
 from django.utils.translation import ugettext_lazy as _
-from django.views.generic import TemplateView
 from django.views import defaults as default_views
+from django.views.generic import TemplateView
+from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework.documentation import include_docs_urls
-
 
 urlpatterns = [
     path("", TemplateView.as_view(template_name="pages/home.html"), name="home"),
@@ -24,6 +24,8 @@ urlpatterns += [
 # Create a router and register our resources with it.
 urlpatterns += [
     # V1
+    # Token Auth
+    path('api/v1/token-auth/', obtain_auth_token),
     # Docs
     path('api/v1/docs/', include_docs_urls(title='Yet Another Twitter Like Application API', public=False)),
     # Endpoints

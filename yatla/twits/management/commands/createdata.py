@@ -40,6 +40,7 @@ class Command(BaseCommand):
                     datetime.timedelta(minutes=random.randint(0, 59))
                     + datetime.timedelta(hours=index)
                 )
+                twit.save()
                 liked_by = User.objects.order_by("?")[: random.randint(0, len(users))]
                 for liked_by_user in liked_by:
                     LikeFactory(user=liked_by_user, twit=twit)

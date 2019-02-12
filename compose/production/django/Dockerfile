@@ -22,7 +22,7 @@ RUN pip install pipenv
 COPY ./Pipfile /app/Pipfile
 COPY ./Pipfile.lock /app/Pipfile.lock
 WORKDIR /app
-RUN pipenv install --system --deploy
+RUN pipenv install --dev --system --deploy
 WORKDIR /
 RUN rm -rf /app/Pipfile \
   && rm -rf /app/Pipfile.lock

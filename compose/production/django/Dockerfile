@@ -20,8 +20,10 @@ RUN addgroup -S django \
 RUN pip install pipenv
 COPY ./Pipfile /app/Pipfile
 COPY ./Pipfile.lock /app/Pipfile.lock
+USER django
 WORKDIR /app
 RUN pipenv install --system --deploy
+USER root
 WORKDIR /
 RUN rm -rf /app/Pipfile \
   && rm -rf /app/Pipfile.lock

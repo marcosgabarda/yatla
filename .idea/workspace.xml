@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2499eab2-7005-4fea-a440-30bbfee55228" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/compose/production/django/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/compose/production/django/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/production/django/entrypoint" beforeDir="false" afterPath="$PROJECT_DIR$/compose/production/django/entrypoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/production/django/start" beforeDir="false" afterPath="$PROJECT_DIR$/compose/production/django/start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/production.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,52 +14,26 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/compose/production/django/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/compose/production/django/entrypoint">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/compose/production/django/start">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/compose/local/django/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compose/local/django/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/settings/production.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +51,7 @@
       <find>SUCCESS</find>
       <find>marcosgabarda</find>
       <find>marcosgabar</find>
+      <find>boto</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/yatla/twits</dir>
@@ -120,11 +93,11 @@
         <option value="$PROJECT_DIR$/compose/production/nginx/nginx.conf" />
         <option value="$PROJECT_DIR$/config/settings/base.py" />
         <option value="$PROJECT_DIR$/yatla/contrib/sites/migrations/0003_set_site_domain_and_name.py" />
-        <option value="$PROJECT_DIR$/config/settings/production.py" />
         <option value="$PROJECT_DIR$/.envs/.production/.django" />
         <option value="$PROJECT_DIR$/compose/production/django/Dockerfile" />
         <option value="$PROJECT_DIR$/compose/production/django/entrypoint" />
         <option value="$PROJECT_DIR$/compose/production/django/start" />
+        <option value="$PROJECT_DIR$/config/settings/production.py" />
       </list>
     </option>
   </component>
@@ -154,44 +127,6 @@
             <path>
               <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="django" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="django" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,33 +139,6 @@
               <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
               <item name="yatla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="yatla" type="462c0819:PsiDirectoryNode" />
-              <item name="twits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="yatla" type="462c0819:PsiDirectoryNode" />
-              <item name="twits" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="yatla" type="462c0819:PsiDirectoryNode" />
-              <item name="twits" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
-              <item name="yatla" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,12 +201,12 @@
       <updated>1549823306684</updated>
       <workItem from="1549823311086" duration="6983000" />
       <workItem from="1549875314159" duration="4563000" />
-      <workItem from="1549924009766" duration="2885000" />
+      <workItem from="1549924009766" duration="3295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14431000" />
+    <option name="totallyTimeSpent" value="14841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1057" extended-state="0" />
@@ -604,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.envs/.production/.postgres">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -652,13 +553,6 @@
     <entry file="file://$PROJECT_DIR$/compose/production/nginx/start.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/compose/local/django/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compose/production/django/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -677,6 +571,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compose/local/django/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
         </state>
       </provider>
     </entry>

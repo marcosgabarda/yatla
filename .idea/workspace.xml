@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2499eab2-7005-4fea-a440-30bbfee55228" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/compose/production/django/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/compose/production/django/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yatla/follows/api/v1/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/yatla/follows/api/v1/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +46,35 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compose/production/django/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yatla/follows/api/v1/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,20 +95,6 @@
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.envs/.production/.django">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.envs/.production/.nginx">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -116,6 +127,7 @@
       <find>boto</find>
       <find>anymail</find>
       <find>media</find>
+      <find>FollowSerializer</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/yatla/twits</dir>
@@ -136,8 +148,6 @@
         <option value="$PROJECT_DIR$/yatla/follows/admin.py" />
         <option value="$PROJECT_DIR$/yatla/follows/api/v1/serializers.py" />
         <option value="$PROJECT_DIR$/yatla/twits/tests/test_apo.py" />
-        <option value="$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py" />
-        <option value="$PROJECT_DIR$/yatla/follows/api/v1/filters.py" />
         <option value="$PROJECT_DIR$/yatla/follows/models.py" />
         <option value="$PROJECT_DIR$/yatla/twits/tests/factories.py" />
         <option value="$PROJECT_DIR$/yatla/twits/models.py" />
@@ -162,6 +172,8 @@
         <option value="$PROJECT_DIR$/.envs/.production/.django" />
         <option value="$PROJECT_DIR$/config/settings/production.py" />
         <option value="$PROJECT_DIR$/compose/production/django/Dockerfile" />
+        <option value="$PROJECT_DIR$/yatla/follows/api/v1/filters.py" />
+        <option value="$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py" />
       </list>
     </option>
   </component>
@@ -222,6 +234,32 @@
               <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
+              <item name="yatla" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
+              <item name="yatla" type="462c0819:PsiDirectoryNode" />
+              <item name="follows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
+              <item name="yatla" type="462c0819:PsiDirectoryNode" />
+              <item name="follows" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yatla-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yatla-project" type="462c0819:PsiDirectoryNode" />
+              <item name="yatla" type="462c0819:PsiDirectoryNode" />
+              <item name="follows" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,12 +322,12 @@
       <updated>1549823306684</updated>
       <workItem from="1549823311086" duration="6983000" />
       <workItem from="1549875314159" duration="4563000" />
-      <workItem from="1549924009766" duration="5374000" />
+      <workItem from="1549924009766" duration="5840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16920000" />
+    <option name="totallyTimeSpent" value="17386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1057" extended-state="0" />
@@ -322,13 +360,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/yatla-project-N-OnTPYa/lib/python3.7/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/yatla-project-N-OnTPYa/lib/python3.7/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
@@ -342,16 +373,6 @@
           <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -666,6 +687,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yatla/follows/api/v1/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yatla/follows/api/v1/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

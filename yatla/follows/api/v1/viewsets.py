@@ -8,7 +8,7 @@ from yatla.follows.models import Follow
 
 class FollowViewSet(viewsets.ModelViewSet):
     queryset = Follow.objects.all()
-    serializer_class = FollowSerializer()
+    serializer_class = FollowSerializer
     permission_classes = [IsAuthenticated]
     filterset_class = FollowModelFilter
 

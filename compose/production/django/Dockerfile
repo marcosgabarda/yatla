@@ -39,6 +39,11 @@ RUN chown django /start
 
 COPY . /app
 
+RUN mkdir /data
+RUN mkdir /data/media
+RUN mkdir /data/static
+
+RUN chown -R django:django /data/
 RUN chown -R django /app
 
 USER django

@@ -19,6 +19,7 @@ coreapi = "*"
 gunicorn = "*"
 whitenoise = "*"
 collectfast = "*"
+django-redis = "*"
 
 [dev-packages]
 mypy = "*"

@@ -25,7 +25,7 @@ urlpatterns += [
 urlpatterns += [
     # V1
     # Token Auth
-    path('api/v1/token-auth/', obtain_auth_token),
+    path('api/v1/auth/', obtain_auth_token),
     # Docs
     path('api/v1/docs/', include_docs_urls(title='Yet Another Twitter Like Application API', public=False)),
     # Endpoints

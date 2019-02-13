@@ -7,7 +7,7 @@ from yatla.users.models import User
 
 
 class FollowSerializer(serializers.ModelSerializer):
-    follows = serializers.CharField(help_text=_())
+    follows = serializers.CharField(help_text=_("username of the user to follow"))
 
     class Meta:
         model = Follow
